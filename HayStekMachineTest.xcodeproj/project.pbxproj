@@ -30,7 +30,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		841255F12DADFBDC0000B127 /* Exceptions for "HayStekMachineTest" folder in "HayStekMachineTest" target */ = {
+		841256652DADFF580000B127 /* Exceptions for "HayStekMachineTest" folder in "HayStekMachineTest" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -40,14 +40,6 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		841255CB2DADFBDB0000B127 /* HayStekMachineTest */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				841255F12DADFBDC0000B127 /* Exceptions for "HayStekMachineTest" folder in "HayStekMachineTest" target */,
-			);
-			path = HayStekMachineTest;
-			sourceTree = "<group>";
-		};
 		841255E22DADFBDC0000B127 /* HayStekMachineTestTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = HayStekMachineTestTests;
@@ -56,6 +48,14 @@
 		841255EC2DADFBDC0000B127 /* HayStekMachineTestUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = HayStekMachineTestUITests;
+			sourceTree = "<group>";
+		};
+		8412565E2DADFF580000B127 /* HayStekMachineTest */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				841256652DADFF580000B127 /* Exceptions for "HayStekMachineTest" folder in "HayStekMachineTest" target */,
+			);
+			path = HayStekMachineTest;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -88,7 +88,7 @@
 		841255C02DADFBDA0000B127 = {
 			isa = PBXGroup;
 			children = (
-				841255CB2DADFBDB0000B127 /* HayStekMachineTest */,
+				8412565E2DADFF580000B127 /* HayStekMachineTest */,
 				841255E22DADFBDC0000B127 /* HayStekMachineTestTests */,
 				841255EC2DADFBDC0000B127 /* HayStekMachineTestUITests */,
 				841255CA2DADFBDA0000B127 /* Products */,
@@ -121,7 +121,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				841255CB2DADFBDB0000B127 /* HayStekMachineTest */,
+				8412565E2DADFF580000B127 /* HayStekMachineTest */,
 			);
 			name = HayStekMachineTest;
 			packageProductDependencies = (
